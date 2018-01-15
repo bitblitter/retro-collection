@@ -28,6 +28,7 @@ env:
 before-install:
   - composer self-update
   - cp .env.dist .env
+  - cp phpunit.xml.dist phpunit.xml
 
 # Install composer dependencies,
 # Create database, schema and fixtures
