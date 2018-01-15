@@ -11,6 +11,7 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
+        "symfony/twig-bundle": "^4.0",
         "symfony/yaml": "^4.0"
     },
     "require-dev": {
@@ -26,7 +27,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/App/",
+            "Bitblitter\\" : "src/Bitblitter/"
         }
     },
     "autoload-dev": {
